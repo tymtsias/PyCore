@@ -1,0 +1,29 @@
+# Task_1
+# print("What is your name?")
+# name = input("")
+# print("How old are you?")
+# age = input("")
+# print("Where do you live?")
+# live = input("")
+#
+# print("Hello, ", name)
+# print("Your age is ", age)
+# print("You live in ", live)
+
+# Task_2
+# print("Enter the value of the number a")
+# a = int(input())
+# print("Enter the value of the number b")
+# b = int(input())
+#
+# c = a + b
+# d = a - b
+# e = a * b
+# f = a / b
+# g = a % b
+#
+# print("a + b = ", c)
+# print("a - b = ", d)
+# print("a * b = ", e)
+# print("a / b = ", f)
+# print("a % b = ", g)
