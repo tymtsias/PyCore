@@ -1,0 +1,11 @@
+number = input("Enter the number \n")
+divided_number = sorted(number)
+
+result = 1
+for i in number:
+    result *= int(i)
+print(result)
+
+print(number[::-1])
+
+print(''.join(divided_number))
