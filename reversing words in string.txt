@@ -1,0 +1,5 @@
+def reverse(st):
+    newlist = st.split(" ")
+    newlist.reverse()
+    newlist = " ".join(newlist)
+    return newlist
