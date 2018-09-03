@@ -1,0 +1,5 @@
+def makeMove(sticks):
+    if sticks % 4 == 0:
+        return 1
+    else:
+        return sticks % 4
