@@ -1,0 +1,5 @@
+def areYouPlayingBanjo(name: str):
+    if name.startswith("R") or name.startswith("r"):
+        return name + "You are not playing banjo!"
+    else:
+        return name + "You are playing banjo!"
