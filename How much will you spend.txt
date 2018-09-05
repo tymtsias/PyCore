@@ -1,0 +1,7 @@
+def getTotal(costs, items, tax):
+    total = 0
+    for item in items:
+        if item in costs:
+            total += costs[item]
+    taxtotal = total + (total * tax)
+    return round(taxtotal, 2)
