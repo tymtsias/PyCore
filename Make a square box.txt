@@ -1,0 +1,7 @@
+def box(n):
+    res = []
+    res.append('-' * n)
+    for i in range(n-2):
+        res.append('-' + (' ' * (n - 2)) + '-')
+    res.append('-' * n)
+    return res
