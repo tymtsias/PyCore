@@ -1,0 +1,8 @@
+def sequence(n):
+    x = (n - 1) % 8
+    if x == 0 or x == 4:
+        return 0
+    elif x == 1 or x == 2 or x == 7:
+        return 1
+    else:
+        return 2
